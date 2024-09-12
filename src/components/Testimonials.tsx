@@ -5,17 +5,17 @@ const testimonials =
 
  [
   {
-    name: "Phil Gaynor",
+    name: "Ram",
     position: "COO, Waterford Insulation",
     content: "Vignesh's leadership has been instrumental in our company's digital transformation. His ability to navigate complex technical challenges while keeping the team motivated is truly remarkable."
   },
   {
-    name: "Natarajan",
+    name: "Shiva",
     position: "IT Director, Zoho Corporation Private Limited",
     content: "Working with John was a game-changer for our IT department. His strategic vision and hands-on approach significantly improved our project delivery and team performance."
   },
   {
-    name: "Rajat Rathee",
+    name: "Rajan",
     position: "Senior Software Developer",
     content: "As a team member under Vignesh's leadership, I've experienced tremendous professional growth. His mentorship and technical expertise have been invaluable to my career development."
   }
