@@ -41,7 +41,7 @@ const experiences = [
     responsibilities: [
       "Analyzed and optimized business processes for efficiency gains",
       "Developed and maintained relationships with key stakeholders",
-      "Contributed to the successful implementation of a new ERP system",
+      "Contributed to the successful implementation of a new CRM",
     ],
   },
 ];
