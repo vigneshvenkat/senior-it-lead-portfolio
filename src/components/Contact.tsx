@@ -26,7 +26,7 @@ const Contact = () => {
               LinkedIn Profile
             </a>
             <a 
-              href="https://github.com/johndoe" 
+              href="https://github.com/vigneshvenkat" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-full sm:w-auto bg-white text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-flex items-center justify-center"
