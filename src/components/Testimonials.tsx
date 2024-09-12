@@ -12,7 +12,7 @@ const testimonials =
   {
     name: "Shiva",
     position: "IT Director, Zoho Corporation Private Limited",
-    content: "Working with John was a game-changer for our IT department. His strategic vision and hands-on approach significantly improved our project delivery and team performance."
+    content: "Working with Vignesh was a game-changer for our IT department. His strategic vision and hands-on approach significantly improved our project delivery and team performance."
   },
   {
     name: "Rajan",
