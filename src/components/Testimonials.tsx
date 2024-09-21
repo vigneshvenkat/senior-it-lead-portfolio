@@ -10,9 +10,9 @@ const testimonials =
     content: "Vignesh's leadership has been instrumental in our company's digital transformation. His ability to navigate complex technical challenges while keeping the team motivated is truly remarkable."
   },
   {
-    name: "Shiva",
-    position: "IT Director, Zoho Corporation Private Limited",
-    content: "Working with Vignesh was a game-changer for our IT department. His strategic vision and hands-on approach significantly improved our project delivery and team performance."
+    name: "Chandramouli Dorai",
+    position: "Chief Evangelist - Cyber Solutions & Digital Signatures, Zoho Corporation Private Limited",
+    content: "Vignesh’s technical expertise helped Zoho Vault scale quickly while delivering a great user experience. Known for his empathy towards customers, he consistently goes above and beyond to understand their needs. His leadership in optimizing performance and security significantly boosted user satisfaction."
   },
   {
     name: "Rajan",
