@@ -4,24 +4,31 @@ import { useState, useEffect, useRef } from 'react';
 
 const experiences = [
   {
-    title: "Senior IT Team Lead",
+    title: "IT Project Manager - Tech & Transformation",
     company: "Waterford Insulation",
     period: "2024 - Present",
     responsibilities: [
-      "Lead a team of 15 IT professionals across multiple projects",
-      "Implement Agile methodologies, resulting in 30% faster project delivery",
-      "Oversee the migration of legacy systems to cloud-based solutions",
-      "Reduce operational costs by 25% through process optimization and automation",
+      "Lead a team of developers to work oon projects and deliver them on time",
+      "Work with stakeholders to understand their IT needs and define project scope for software implementations",
+      "Develop project plans with timelines, milestones, budgets, and resource allocation",
+      "Conduct risk assessments and mitigation strategies.",
+      "Manage and oversee the project execution according to the plan, ensuring tasks are completed on time and within budget",
+      "Monitor project progress, identify and address any roadblocks or delays, and implement corrective actions",
+      "Ensure successful project completion by testing, documenting, and training users on new systems or processes",
+      "Develop handover documentation for future reference and maintenance",
+      "Evaluate project outcomes and collect feedback for continuous improvement"
     ],
   },
   {
-    title: "IT Tech Lead",
+    title: "Technical Lead",
     company: "Zoho Corporation Private Limited",
     period: "2019 - 2022",
     responsibilities: [
-      "Managed end-to-end delivery of 10+ large-scale IT projects",
-      "Improved client satisfaction scores by 40% through enhanced communication strategies",
-      "Implemented a new project management tool, increasing team productivity by 20%",
+      "Performed as a Technical Lead by leading my development team to produce quality work",
+      "Developed widgets using top Javascript and CSS frameworks to implement client's feature requests",
+      "Responsible for on-boarding of new hires, teaching organization's development process and setting them goals",
+      "Captured business requirements and designed plans on implementing client's business model with our Zoho CRM",
+      "Explore new technologies available and employ them in our product to improve efficiency"
     ],
   },
   {
@@ -29,9 +36,11 @@ const experiences = [
     company: "Zoho Corporation Private Limited",
     period: "2015 - 2019",
     responsibilities: [
-      "Analyzed and optimized business processes for efficiency gains",
-      "Developed and maintained relationships with key stakeholders",
-      "Contributed to the successful implementation of a new ERP system",
+      "Performed as an individual contributor in revamping our product using React Framework",
+      "Developed a tool in Python language to perform encryption and decryption of the saved passwords",
+      "Developed features such as automatic change password for websites, form filling, WebExtensions, etc",
+      "Overall in-charge of browser extensions for platforms like Google Chrome, Mozilla Firefox, Microsoft Edge & Opera",
+      "Responsible for on-boarding of new hires, teaching the organization's development process and setting them goals"
     ],
   },
   {
@@ -39,9 +48,11 @@ const experiences = [
     company: "Zoho Corporation Private Limited",
     period: "2014 - 2015",
     responsibilities: [
-      "Analyzed and optimized business processes for efficiency gains",
-      "Developed and maintained relationships with key stakeholders",
-      "Contributed to the successful implementation of a new CRM",
+      "Developed feature enhancements based on the list of customer promises",
+      "Handled mission critical and emergency situations as part of the technical support team",
+      "Updated the vulnerability database periodically by adding latest vulnerabilities revealed by international regulatory bodies like Common Vulnerabilities and Exposures, National Institute of Science and Technology, etc",
+      "Updated the patch database by adding the patches released for the respective vulnerabilities exposed on products developed by famous brands like Adobe, Google, Microsoft, etc",
+      "Delivered hot-fixes as and when required"
     ],
   },
 ];
