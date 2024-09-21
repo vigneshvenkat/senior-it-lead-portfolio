@@ -10,7 +10,7 @@ const Hero = () => {
             Vignesh Venkatraman
           </h1>
           <h2 className="text-2xl md:text-3xl mb-6 text-white">
-            Senior IT Team Lead with 10+ Years Experience
+            Senior IT Manager with 10+ Years Experience
           </h2>
           <p className="text-lg mb-8 text-gray-400 max-w-lg">
             Driving innovation and leading high-performance teams to deliver cutting-edge IT solutions in an ever-evolving technological landscape.
@@ -27,6 +27,13 @@ const Hero = () => {
               className="bg-gray-800 text-white px-6 py-3 rounded-full font-bold hover:bg-gray-700 transition duration-300 inline-block"
             >
               View Skills
+            </a>
+            <a 
+              href="src/public/CV-VigneshVenkatraman.pdf" 
+              download="CV-VigneshVenkatraman.pdf"
+              className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-black transition duration-300"
+            >
+              Download CV
             </a>
           </div>
         </div>
