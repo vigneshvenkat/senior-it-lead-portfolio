@@ -29,8 +29,8 @@ const Hero = () => {
               View Skills
             </a>
             <a 
-              href="/CV-VigneshVenkatraman.pdf" 
-              download="CV-VigneshVenkatraman.pdf"
+              href="/src/public/CV-VigneshVenkatraman.pdf" 
+              download
               className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-black transition duration-300"
             >
               Download CV
