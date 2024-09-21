@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 
 const experiences = [
   {
-    title: "IT Project Manager - Tech & Transformation",
+    title: "Senior IT Manager - Tech & Transformation",
     company: "Waterford Insulation",
     period: "2024 - Present",
     responsibilities: [
@@ -81,6 +81,7 @@ const Experience = () => {
 
     return () => {
       if (experienceRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(experienceRef.current);
       }
     };
