@@ -5,8 +5,8 @@ const testimonials =
 
  [
   {
-    name: "Ram",
-    position: "COO, Waterford Insulation",
+    name: "Rajat Rathee",
+    position: "IT Manager, Waterford Insulation",
     content: "Vignesh's leadership has been instrumental in our company's digital transformation. His ability to navigate complex technical challenges while keeping the team motivated is truly remarkable."
   },
   {
@@ -15,9 +15,9 @@ const testimonials =
     content: "Vignesh’s technical expertise helped Zoho Vault scale quickly while delivering a great user experience. Known for his empathy towards customers, he consistently goes above and beyond to understand their needs. His leadership in optimizing performance and security significantly boosted user satisfaction."
   },
   {
-    name: "Rajan",
-    position: "Senior Software Developer",
-    content: "As a team member under Vignesh's leadership, I've experienced tremendous professional growth. His mentorship and technical expertise have been invaluable to my career development."
+    name: "Hariharan Lakshmanan",
+    position: "Member leadership Staff, Zoho Corporation Private Limited",
+    content: "As a team member who has worked with Vignesh, I've experienced tremendous professional growth. His mentorship and technical expertise have been invaluable to my career development."
   }
 ]
 
