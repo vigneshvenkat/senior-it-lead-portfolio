@@ -23,7 +23,7 @@ const Hero = () => {
               Get in Touch
             </a>
             <a 
-              href="/senior-it-lead-portfolio/CV-VigneshVenkatraman.pdf" 
+              href="/CV-VigneshVenkatraman.pdf" 
               download
               className="bg-gray-800 text-white px-6 py-3 rounded-full font-bold hover:bg-gray-700 transition duration-300 inline-block"
             >
