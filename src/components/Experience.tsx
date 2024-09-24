@@ -8,7 +8,7 @@ const experiences = [
     company: "Waterford Insulation",
     period: "2024 - Present",
     responsibilities: [
-      "Lead a team of developers to work oon projects and deliver them on time",
+      "Lead a team of developers to work on projects and deliver them on time",
       "Work with stakeholders to understand their IT needs and define project scope for software implementations",
       "Develop project plans with timelines, milestones, budgets, and resource allocation",
       "Conduct risk assessments and mitigation strategies.",

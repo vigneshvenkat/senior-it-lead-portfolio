@@ -45,7 +45,7 @@ const Skills = () => {
       className="py-16 bg-black opacity-0 transition duration-700 ease-in-out"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">Skills & Expertise</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {skills.map((skillSet, index) => (
             <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">

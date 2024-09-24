@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-black text-white py-16 px-4">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-3/4 mb-8 md:mb-0">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 py-2">
             Vignesh Venkatraman
           </h1>
           <h2 className="text-2xl md:text-3xl mb-6 text-white">
