@@ -10,7 +10,7 @@ const Hero = () => {
             Vignesh Venkatraman
           </h1>
           <h2 className="text-2xl md:text-3xl mb-6 text-white">
-            Senior IT Manager with 10+ Years Experience
+            Principal Software Developer with 10+ Years Experience
           </h2>
           <p className="text-lg mb-8 text-gray-400 max-w-lg">
             Driving innovation and leading high-performance teams to deliver cutting-edge IT solutions in an ever-evolving technological landscape.
