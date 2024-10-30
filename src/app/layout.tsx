@@ -5,8 +5,8 @@ import ScrollToTop from '../components/ScrollToTop'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Vignesh Venkatraman - Senior IT Team Lead Portfolio',
-  description: 'Portfolio showcasing the projects and skills of Vignesh Venkatraman, an experienced Senior IT Team Lead'
+  title: 'Vignesh Venkatraman - Principal Software Developer',
+  description: 'Portfolio showcasing the projects and skills of Vignesh Venkatraman, an experienced Principal Software Developer'
 }
 
 export default function RootLayout({
