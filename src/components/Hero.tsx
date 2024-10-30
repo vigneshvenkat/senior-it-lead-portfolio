@@ -12,7 +12,7 @@ const Hero = () => {
           <h2 className="text-2xl md:text-3xl mb-6 text-white">
             Principal Software Developer
           </h2>
-          <h3>
+          <h3 className="text-xl md:text-xl mb-6 text-white">
             10+ Years Experience
           </h3>
           <p className="text-lg mb-8 text-gray-400 max-w-lg">
