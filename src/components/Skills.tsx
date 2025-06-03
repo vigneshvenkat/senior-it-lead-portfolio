@@ -4,9 +4,9 @@ import { useEffect, useRef } from 'react';
 
 const skills = [
   { category: "Leadership", items: ["Team Management", "Mentoring", "Strategic Planning", "Agile Methodologies", "Conflict Resolution"] },
-  { category: "Technical", items: ["ReactJS", "VueJS", "NextJS", "NodeJS", "ExpressJS", "JavaScript", "TypeScript", "Bootstrap", "Tailwind", "MongoDB", "Node", "MySQL", "AWS"] },
+  { category: "Frontend", items: ["ReactJS", "VueJS", "NextJS", "JavaScript", "TypeScript", "Bootstrap", "Tailwind"]},
   { category: "Project Management", items: ["Scrum", "Kanban", "Risk Management", "Change Management", "Budgeting"] },
-  { category: "Soft Skills", items: ["Communication", "Problem Solving", "Negotiation", "Conflict Resolution"] }
+  { category: "Backend", items: ["Java", "Spring Boot", "NodeJS", "ExpressJS", "MongoDB", "MySQL"] }
 ]
 
 const Skills = () => {
