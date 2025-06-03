@@ -6,7 +6,7 @@ const skills = [
   { category: "Leadership", items: ["Team Management", "Mentoring", "Strategic Planning", "Agile Methodologies", "Conflict Resolution"] },
   { category: "Frontend", items: ["ReactJS", "VueJS", "NextJS", "JavaScript", "TypeScript", "Bootstrap", "Tailwind"]},
   { category: "Project Management", items: ["Scrum", "Kanban", "Risk Management", "Change Management", "Budgeting"] },
-  { category: "Backend", items: ["Java", "Spring Boot", "NodeJS", "ExpressJS", "MongoDB", "MySQL"] }
+  { category: "Backend", items: ["Java", "Spring Boot", "NodeJS", "ExpressJS", "AWS Lambda", "API Gateway","MongoDB", "MySQL"] }
 ]
 
 const Skills = () => {

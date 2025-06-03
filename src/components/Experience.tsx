@@ -32,10 +32,12 @@ const experiences = [
     company: "Zoho Corporation Private Limited",
     period: "2015 - 2019",
     responsibilities: [
-      "Led a team in revamping our entire product’s UI using ReactJS, NodeJS",
-      "On-boarded new hires on organization's development process and guiding them in goal setting.",
-      "Initiated and implemented the idea of moving our existing browser extensions to one code base which helped us in reducing the time spent on updates or bug fixes by 70% enabling the team to focus on other goals.",
-      "Implemented on-demand features like automatic change password, Form Filling which attracted more new customers and boosted our subscriptions by 20%."
+      "Led the modernization of Zoho Vault's architecture, transitioning from legacy systems to a React and Node.js stack that improved performance by 30% while maintaining robust security standards for password management.",
+      "Designed and implemented critical features like automatic password rotation and form filling, which contributed to a 20% increase in paid subscriptions through improved user experience.",
+      "Consolidated multiple browser extensions into a unified codebase using Node.js, reducing maintenance overhead by 70% through careful architecture design and modular development practices.",
+      "Established comprehensive testing protocols that reduced production issues by 40%, combining unit testing with end-to-end validation of security-critical functionality.",
+      "Mentored junior team members in modern development practices, particularly around building secure, maintainable web applications with React and TypeScript.",
+      "Collaborated with security teams to implement encryption best practices and audit trails, ensuring compliance with enterprise security requirements."
     ]
   },
   {
@@ -43,8 +45,8 @@ const experiences = [
     company: "Zoho Corporation Private Limited",
     period: "2014 - 2015",
     responsibilities: [
-      "Developed feature enhancements based on the list of customer promises",
-      "Handled mission critical and emergency situations as part of the technical support team",
+      "Developed feature enhancements based on the list of customer promises.",
+      "Handled mission critical and emergency situations as part of the technical support team.",
       "Updated the vulnerability database periodically by adding latest vulnerabilities revealed by international regulatory bodies like Common Vulnerabilities and Exposures, National Institute of Science and Technology, etc",
       "Updated the patch database by adding the patches released for the respective vulnerabilities exposed on products developed by famous brands like Adobe, Google, Microsoft, etc",
       "Delivered hot-fixes as and when required"
