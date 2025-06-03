@@ -4,44 +4,39 @@ import { useState, useEffect, useRef } from 'react';
 
 const experiences = [
   {
-    title: "Senior IT Manager - Tech & Transformation",
+    title: "IT Lead - Tech & Transformation",
     company: "Waterford Insulation",
     period: "2024 - Present",
     responsibilities: [
-      "Lead a team of developers to work on projects and deliver them on time",
-      "Work with stakeholders to understand their IT needs and define project scope for software implementations",
-      "Develop project plans with timelines, milestones, budgets, and resource allocation",
-      "Conduct risk assessments and mitigation strategies.",
-      "Manage and oversee the project execution according to the plan, ensuring tasks are completed on time and within budget",
-      "Monitor project progress, identify and address any roadblocks or delays, and implement corrective actions",
-      "Ensure successful project completion by testing, documenting, and training users on new systems or processes",
-      "Develop handover documentation for future reference and maintenance",
-      "Evaluate project outcomes and collect feedback for continuous improvement"
-    ],
+      "Transformed the entire business’s chain by implementing a CRM for their new solar venture which resulted in 40% increase in business flow efficiency.",
+      "Developed Single Page UI Components using React.js and TailwindCSS to seamlessly integrate the CRM system with external services such as Fleet Trackers and Fuel Trackers, enhancing operational efficiency and data flow.",
+      "Lead the IT team in delivering required front-end components in the form of widgets using latest frameworks like ReactJS, VueJS.",
+      "Develop project plans with timelines, milestones, budgets, and resource allocation.",
+      "Managed and monitored the project execution according to the plan, ensuring tasks are completed on time and within budget."
+    ]
   },
   {
     title: "Technical Lead",
     company: "Zoho Corporation Private Limited",
     period: "2019 - 2022",
     responsibilities: [
-      "Performed as a Technical Lead by leading my development team to produce quality work",
-      "Developed widgets using top Javascript and CSS frameworks to implement client's feature requests",
-      "Responsible for on-boarding of new hires, teaching organization's development process and setting them goals",
-      "Captured business requirements and designed plans on implementing client's business model with our Zoho CRM",
-      "Explore new technologies available and employ them in our product to improve efficiency"
-    ],
+      "Worked with stakeholders to understand their IT needs and defined project scope for software implementations.",
+      "Collaborated with supporting third-party and inbuilt applications to Integrate with CRM which increased the number of overall integrated apps by 100% which in turn increased our product’s revenue by 30%.",
+      "Designed and implemented backend services using Java, Spring Boot, integrating caching methodologies (Redis) to optimize performance and reduce latency by 25%.",
+      "Led database design initiatives for CRM modules, ensuring scalability and efficient data retrieval, which improved query response times by 20%.",
+      "Provided my team with a streamlined plan for all requirements gathered from clients to help them in completing the requirements on time and streamlining this increased our accuracy in delivering items by 50%."
+    ]
   },
   {
     title: "Member Technical Staff",
     company: "Zoho Corporation Private Limited",
     period: "2015 - 2019",
     responsibilities: [
-      "Performed as an individual contributor in revamping our product using React Framework",
-      "Developed a tool in Python language to perform encryption and decryption of the saved passwords",
-      "Developed features such as automatic change password for websites, form filling, WebExtensions, etc",
-      "Overall in-charge of browser extensions for platforms like Google Chrome, Mozilla Firefox, Microsoft Edge & Opera",
-      "Responsible for on-boarding of new hires, teaching the organization's development process and setting them goals"
-    ],
+      "Led a team in revamping our entire product’s UI using ReactJS, NodeJS",
+      "On-boarded new hires on organization's development process and guiding them in goal setting.",
+      "Initiated and implemented the idea of moving our existing browser extensions to one code base which helped us in reducing the time spent on updates or bug fixes by 70% enabling the team to focus on other goals.",
+      "Implemented on-demand features like automatic change password, Form Filling which attracted more new customers and boosted our subscriptions by 20%."
+    ]
   },
   {
     title: "Engineer Trainee",
