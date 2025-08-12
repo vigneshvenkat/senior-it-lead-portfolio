@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 const experiences = [
   {
     title: "IT Lead - Tech & Transformation",
-    company: "Waterford Insulation",
+    company: "WI Energy",
     period: "2024 - Present",
     responsibilities: [
       "Transformed the entire business’s chain by implementing a CRM for their new solar venture which resulted in 40% increase in business flow efficiency.",
