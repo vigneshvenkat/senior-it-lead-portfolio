@@ -7,7 +7,7 @@ const testimonials =
   {
     name: "Rajat Rathee",
     position: "IT Manager, WI Energy",
-    content: "Vignesh's leadership has been instrumental in our company's digital transformation. His ability to navigate complex technical challenges while keeping the team motivated is truly remarkable."
+    content: "Vignesh's leadership has been instrumental in our company's digital transformations. His ability to navigate complex technical challenges while keeping the team motivated is truly remarkable."
   },
   {
     name: "Chandramouli Dorai",
