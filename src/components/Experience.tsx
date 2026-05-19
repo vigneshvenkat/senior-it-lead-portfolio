@@ -8,11 +8,11 @@ const experiences = [
     company: "WI Energy",
     period: "2024 - Present",
     responsibilities: [
-      "Transformed the entire business’s chain by implementing a CRM for their new solar venture which resulted in 40% increase in business flow efficiency.",
-      "Developed Single Page UI Components using React.js and TailwindCSS to seamlessly integrate the CRM system with external services such as Fleet Trackers and Fuel Trackers, enhancing operational efficiency and data flow.",
-      "Lead the IT team in delivering required front-end components in the form of widgets using latest frameworks like ReactJS, VueJS.",
-      "Develop project plans with timelines, milestones, budgets, and resource allocation.",
-      "Managed and monitored the project execution according to the plan, ensuring tasks are completed on time and within budget."
+      "Lead and manage a team of IT professionals, setting clear objectives, delegating tasks, and ensuring on-time delivery across all IT initiatives.",
+      "Architected and implemented a bespoke CRM & ERP system using React, Node.js with REST APIs, PostgreSQL and JWT-based authentication for the company’s multiple businesses, resulting in a 40% increase in business flow efficiency across sales, fleet, and field teams.",
+      "Spearheading the company’s ISO 27001 certification programme - architecting security layers including Helmet.js, data encryption, and audit trails, while ensuring full GDPR compliance across all IT systems.",
+      "Integrated AI capabilities into business applications, improving workflow automation and decision-making for operational staff.",
+      "Developed project plans with defined timelines, milestones, budgets, and resource allocation; monitored execution to ensure on-time, within-budget delivery."
     ]
   },
   {
@@ -20,11 +20,11 @@ const experiences = [
     company: "Zoho Corporation Private Limited",
     period: "2019 - 2022",
     responsibilities: [
-      "Worked with stakeholders to understand their IT needs and defined project scope for software implementations.",
-      "Collaborated with supporting third-party and inbuilt applications to Integrate with CRM which increased the number of overall integrated apps by 100% which in turn increased our product’s revenue by 30%.",
-      "Designed and implemented backend services using Java, Spring Boot, integrating caching methodologies (Redis) to optimize performance and reduce latency by 25%.",
-      "Led database design initiatives for CRM modules, ensuring scalability and efficient data retrieval, which improved query response times by 20%.",
-      "Provided my team with a streamlined plan for all requirements gathered from clients to help them in completing the requirements on time and streamlining this increased our accuracy in delivering items by 50%."
+      "Directed the team’s frontend delivery using React.js, Vue.js, TypeScript setting technical standards and guiding architecture decisions across the CRM platform.",
+      "Orchestrated the integration of third-party and internal applications with Zoho CRM via REST APIs and Node.js middleware services, doubling the number of integrated apps and driving a 30% increase in product revenue.",
+      "Developed bespoke Node.js applications for premium enterprise customers, tailored to their specific business workflows and operational requirements.",
+      "Led database design initiatives for CRM modules, improving query response times by 20% through indexing and schema optimisation strategies.",
+      "Mentored and managed the team through structured requirement delivery plans, increasing on-time delivery accuracy by 50%."
     ]
   },
   {
@@ -32,28 +32,29 @@ const experiences = [
     company: "Zoho Corporation Private Limited",
     period: "2015 - 2019",
     responsibilities: [
-      "Led the modernization of Zoho Vault's architecture, transitioning from legacy systems to a React and Node.js stack that improved performance by 30% while maintaining robust security standards for password management.",
-      "Designed and implemented critical features like automatic password rotation and form filling, which contributed to a 20% increase in paid subscriptions through improved user experience.",
-      "Consolidated multiple browser extensions into a unified codebase using Node.js, reducing maintenance overhead by 70% through careful architecture design and modular development practices.",
-      "Established comprehensive testing protocols that reduced production issues by 40%, combining unit testing with end-to-end validation of security-critical functionality.",
-      "Mentored junior team members in modern development practices, particularly around building secure, maintainable web applications with React and TypeScript.",
+      "Spearheaded the full modernisation of Zoho Vault’s architecture, migrating from a legacy stack to React and Node.js, improving performance by 30% while maintaining enterprise-grade security standards.",
+      "Designed and delivered critical security features including automatic password rotation and intelligent form filling, contributing to a 20% increase in paid subscriptions.",
+      "Consolidated multiple browser extensions into a single unified Node.js codebase, reducing maintenance overhead by 70% through modular architecture design.",
+      "Established comprehensive testing protocols combining Jest unit tests and Selenium end-to-end testing, reducing production incidents by 40%.",
+      "Mentored junior team members in modern development practices, particularly around building secure, maintainable web applications with React and JavaScript.",
       "Collaborated with security teams to implement encryption best practices and audit trails, ensuring compliance with enterprise security requirements."
     ]
-  },
-  {
-    title: "Engineer Trainee",
-    company: "Zoho Corporation Private Limited",
-    period: "2014 - 2015",
-    responsibilities: [
-      "Developed feature enhancements based on the list of customer promises.",
-      "Handled mission critical and emergency situations as part of the technical support team.",
-      "Updated the vulnerability database periodically by adding latest vulnerabilities revealed by international regulatory bodies like Common Vulnerabilities and Exposures, National Institute of Science and Technology, etc",
-      "Updated the patch database by adding the patches released for the respective vulnerabilities exposed on products developed by famous brands like Adobe, Google, Microsoft, etc",
-      "Delivered hot-fixes as and when required"
-    ],
-  },
+  }
 ];
-
+/*
+{
+  title: "Engineer Trainee",
+  company: "Zoho Corporation Private Limited",
+  period: "2014 - 2015",
+  responsibilities: [
+    "Developed feature enhancements based on the list of customer promises.",
+    "Handled mission critical and emergency situations as part of the technical support team.",
+    "Updated the vulnerability database periodically by adding latest vulnerabilities revealed by international regulatory bodies like Common Vulnerabilities and Exposures, National Institute of Science and Technology, etc",
+    "Updated the patch database by adding the patches released for the respective vulnerabilities exposed on products developed by famous brands like Adobe, Google, Microsoft, etc",
+    "Delivered hot-fixes as and when required"
+  ]
+}
+*/
 const Experience = () => {
   const [activeTab, setActiveTab] = useState(0);
   const experienceRef = useRef<HTMLDivElement | null>(null);
