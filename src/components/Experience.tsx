@@ -30,7 +30,7 @@ const experiences = [
   {
     title: "Member Technical Staff",
     company: "Zoho Corporation Private Limited",
-    period: "2015 - 2019",
+    period: "2014 - 2019",
     responsibilities: [
       "Spearheaded the full modernisation of Zoho Vault’s architecture, migrating from a legacy stack to React and Node.js, improving performance by 30% while maintaining enterprise-grade security standards.",
       "Designed and delivered critical security features including automatic password rotation and intelligent form filling, contributing to a 20% increase in paid subscriptions.",
