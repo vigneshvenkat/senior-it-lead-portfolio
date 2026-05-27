@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-black text-white py-16 px-4">
-      <div className="container mx-auto">
+    <section className="min-h-screen flex items-center bg-black text-white py-16">
+      <div className="container mx-auto px-16 md:px-24">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 py-2">
           Vignesh Venkatraman
         </h1>
@@ -34,4 +34,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
