@@ -3,7 +3,6 @@ const Footer = () => {
     <footer className="bg-black text-white py-8 border-t border-gray-900">
       <div className="w-full px-12 md:px-20 flex items-center justify-between">
         <p className="text-gray-600 text-xs">© 2026 Vignesh Venkatraman. All rights reserved.</p>
-        <p className="text-gray-700 text-xs">Built with Next.js & Tailwind</p>
       </div>
     </footer>
   );

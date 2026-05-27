@@ -15,23 +15,20 @@ const SectionReveal = ({ children, className = '', delay = 0 }: SectionRevealPro
     const el = ref.current;
     if (!el) return;
 
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(32px)';
-    el.style.filter = 'blur(4px)';
-    el.style.transition = `opacity 0.8s cubic-bezier(0.16,1,0.3,1) ${delay}ms, transform 0.8s cubic-bezier(0.16,1,0.3,1) ${delay}ms, filter 0.8s cubic-bezier(0.16,1,0.3,1) ${delay}ms`;
-
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            el.style.opacity = '1';
-            el.style.transform = 'translateY(0)';
-            el.style.filter = 'blur(0)';
+            setTimeout(() => {
+              el.style.opacity = '1';
+              el.style.transform = 'translateY(0px)';
+              el.style.filter = 'blur(0px)';
+            }, delay);
             observer.unobserve(el);
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
     );
 
     observer.observe(el);
@@ -39,7 +36,17 @@ const SectionReveal = ({ children, className = '', delay = 0 }: SectionRevealPro
   }, [delay]);
 
   return (
-    <div ref={ref} className={className}>
+    <div
+      ref={ref}
+      className={className}
+      style={{
+        opacity: 0,
+        transform: 'translateY(36px)',
+        filter: 'blur(6px)',
+        transition: `opacity 0.9s cubic-bezier(0.16,1,0.3,1) ${delay}ms, transform 0.9s cubic-bezier(0.16,1,0.3,1) ${delay}ms, filter 0.9s cubic-bezier(0.16,1,0.3,1) ${delay}ms`,
+        willChange: 'opacity, transform, filter',
+      }}
+    >
       {children}
     </div>
   );
