@@ -1,17 +1,17 @@
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-black text-white py-16 px-4">
-      <div className="container mx-auto flex flex-col items-start">
+      <div className="container mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 py-2">
           Vignesh Venkatraman
         </h1>
         <h2 className="text-2xl md:text-3xl mb-6 text-white">
           Principal Software Developer
         </h2>
-        <h3 className="text-xl md:text-xl mb-6 text-white">
+        <h3 className="text-xl mb-6 text-white">
           10+ Years Experience
         </h3>
-        <p className="text-lg mb-8 text-gray-400 max-w-lg">
+        <p className="text-lg mb-8 text-gray-400 max-w-2xl">
           Driving innovation and leading high-performance teams to deliver cutting-edge IT solutions in an ever-evolving technological landscape.
         </p>
         <div className="flex space-x-4">
