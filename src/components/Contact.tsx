@@ -5,13 +5,28 @@ import SectionReveal from './SectionReveal';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:vignesh@vigneshvenkatraman.com?subject=Portfolio Enquiry from ${formData.name}&body=${encodeURIComponent(formData.message)}%0A%0AFrom: ${formData.name}%0AEmail: ${formData.email}`;
-    window.open(mailtoLink);
-    setSubmitted(true);
+    setStatus('sending');
+
+    try {
+      const res = await fetch('https://formspree.io/f/mlgvawpw', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
   };
 
   return (
@@ -62,17 +77,26 @@ const Contact = () => {
                   <div className="text-sm text-gray-200 group-hover:text-purple-400 transition-colors duration-200">vigneshvenkat ↗</div>
                 </div>
               </a>
-
             </div>
           </SectionReveal>
 
           {/* Contact form */}
           <SectionReveal delay={200}>
-            {submitted ? (
-              <div className="flex flex-col items-center justify-center h-full text-center">
-                <div className="text-4xl mb-4">✉️</div>
-                <p className="text-white font-semibold">Thanks for reaching out!</p>
-                <p className="text-gray-500 text-sm mt-2">Your email client should have opened. I&apos;ll get back to you soon.</p>
+            {status === 'success' ? (
+              <div className="flex flex-col items-center justify-center h-full text-center py-8">
+                <div className="w-14 h-14 rounded-full bg-purple-900/40 border border-purple-700 flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="text-white font-semibold text-lg">Message sent!</p>
+                <p className="text-gray-500 text-sm mt-2">Thanks for reaching out. I&apos;ll get back to you soon.</p>
+                <button
+                  onClick={() => setStatus('idle')}
+                  className="mt-6 text-xs text-purple-400 hover:text-purple-300 transition-colors duration-200"
+                >
+                  Send another message
+                </button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -100,11 +124,15 @@ const Contact = () => {
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-purple-600 transition-colors duration-200 resize-none"
                 />
+                {status === 'error' && (
+                  <p className="text-red-400 text-xs">Something went wrong. Please try again.</p>
+                )}
                 <button
                   type="submit"
-                  className="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-3 rounded-xl transition-colors duration-200 text-sm"
+                  disabled={status === 'sending'}
+                  className="bg-purple-700 hover:bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3 rounded-xl transition-colors duration-200 text-sm"
                 >
-                  Send Message
+                  {status === 'sending' ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
             )}
