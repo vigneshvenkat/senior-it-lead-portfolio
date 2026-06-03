@@ -54,7 +54,7 @@ const Hero = () => {
           <p className="text-xs md:text-sm uppercase tracking-widest text-purple-400 mb-4 md:mb-6">
             IT Lead · Tech &amp; Transformation
           </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-3 md:mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-3 md:mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
               Vignesh
             </span>
@@ -90,7 +90,7 @@ const Hero = () => {
         <div className="grid grid-cols-2 gap-3 md:gap-6">
           {[
             { num: '10+', label: 'Years experience' },
-            { num: '40%', label: 'Efficiency delivered' },
+            { num: '70%', label: 'Efficiency delivered' },
             { num: '3', label: 'Leadership roles' },
             { num: '15+', label: 'Enterprise projects' },
           ].map((stat) => (

@@ -47,7 +47,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="py-24 bg-gray-900">
-      <div className="w-full px-12 md:px-20">
+      <div className="w-full px-6 md:px-20">
         <SectionReveal>
           <h2 className="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
             Professional Experience
@@ -90,7 +90,7 @@ const Experience = () => {
           </div>
 
           {/* Content panel */}
-          <SectionReveal className="md:w-2/3 bg-gray-800/50 border border-gray-700/50 rounded-2xl p-8" delay={200}>
+          <SectionReveal className="md:w-2/3 bg-gray-800/50 border border-gray-700/50 rounded-2xl p-5 md:p-8" delay={200}>
             <h3 className="text-2xl font-bold mb-1 text-white">{experiences[activeTab].title}</h3>
             <p className="text-purple-400 mb-1 text-sm">{experiences[activeTab].company}</p>
             <p className="text-gray-500 text-sm mb-6">{experiences[activeTab].period}</p>

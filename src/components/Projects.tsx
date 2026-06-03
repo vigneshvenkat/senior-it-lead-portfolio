@@ -99,7 +99,7 @@ const defaultTagColor = 'bg-gray-800 text-gray-400 border border-gray-700';
 const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-black">
-      <div className="w-full px-12 md:px-20">
+      <div className="w-full px-6 md:px-20">
         <SectionReveal>
           <h2 className="text-3xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
             Projects

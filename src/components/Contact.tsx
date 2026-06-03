@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-24 bg-black">
-      <div className="w-full px-12 md:px-20">
+      <div className="w-full px-6 md:px-20">
         <SectionReveal>
           <h2 className="text-3xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
             Get in Touch
@@ -86,7 +86,7 @@ const Contact = () => {
                 {status === 'error' && (
                   <p className="text-red-400 text-xs mb-4">Something went wrong. Please try again.</p>
                 )}
-                <div className="flex items-center justify-between">
+                <div className="flex flex-wrap items-center justify-between gap-4">
                   <div className="flex gap-5">
                     <a
                       href="https://www.linkedin.com/in/vignesh-venkatraman-33677657/"
